@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>html5</title>
+
+    <style> 
+        table {
+            border-collapse: collapse;
+            border: 1px solid #000000
+            }
+        td    {
+            border: 1px solid #000000
+            }
+        th    {
+            border: 1px solid #000000
+            }
+
+    </style>
+
+
+
+    </head>
+
+    <body>
+        <p>목차</p>
+        <ol>
+            <li><a href="./ex01.html">1. h1~h6태그</a></li>
+            <li><a href="./ex02.html">2. /a>p br blockquote q strong b em i</a></li>
+            <li><a href="./ex03.html">3. ol ul li 태그</a></li>
+            <li><a href="ex04.html">4. img 태그</a></li>
+            <li><a href="ex05.html">5. table thead tbody tr th td 태그</a></li>
+            <li><a href="ex06.html">6. table 합치기 태그</a></li>
+            <li><a href="ex07.html">7. thead tbody tfoot 태그</a></li>
+            <li><a href="ex08.html">8. 테이블 합치기 연습문제 태그</a></li>
+        </ol>
+
+            <hr>
+
+            <h1>html태그</h1>
+            <h2>8. 테이블 합치기 연습문제 태그</h2>
+
+            <p>테이블 합치기</p>
+
+        <table border="1">
+                <caption>모집분야</caption>
+            <thead>
+                <tr><!--1번-->
+                    <th colspan="2">모집직군</th>
+                    <!--2-->
+                    <th colspan="2">모집전공</th>
+                    <!--모집전공-->>
+                    <th colspan="3">비고</th>
+                    <!--비고-->>
+                    <th>근무지</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><!--2번-->
+                    <th colspan="2">생산기술직</th>
+                    <!--2-->
+                    <td colspan="2">화학공학</td>
+                    <!--화학공학-->>
+                    <td rowspan="3" colspan="3">전공관련 자격증우대</td>
+                    <!--전공관련 자격증 우대-->>
+                    <td rowspan="5">충남,서산</td>
+                </tr>
+                <tr><!--3번-->
+                    <th rowspan="2">생산직원직</th>
+                    <th>공무</th>
+                    <td colspan="2">기계 전기</td>
+                    <!--기계전기-->
+                    <!--전공관련 자격증 우대-->
+                    <!--충남,서산-->
+                    
+                </tr>
+                <tr><!--4번-->
+                    <!--생산지원직-->>
+                    <th>안전환경</th>
+                    <td colspan="2">안전,환경</td>
+                    <!--안전환경-->
+                    <!--전공관련 자격증 우대-->
+                    <!--충남,서산-->
+                    
+                </tr>
+                <tr><!--5번-->
+                    <th colspan="2">연구개발직</th>
+                    <!--연구개발직-->>
+                    <td colspan="2">화학,화학공장</td>
+                    <!--화학,화학공장-->>
+                    <td colspan="3">석사</td>
+                    <!--석사-->
+                    <!--충남,서산-->
+                </tr>
+                <tr><!--6번-->
+                    <th colspan="2">경영지원직</th>
+                    <!--경영지원직-->
+                    <td colspan="2">상경계열</td>
+                    <!--상경계열-->>
+                    <td colspan="3"></td>
+                    <!--충남,서산-->
+                </tr>
+                <tr><!--7번-->
+                    <th colspan="2">영업마케팅직</th>
+                    <!--영업마케팅직-->>
+                    <td colspan="2">상경계열</td>
+                    <!--상경계열-->>
+                    <td colspan="3"></td>
+                    <!--충남,서산-->
+                    <td>서울중구</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </body>
+
+
+
+
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+    </head>
+
+    <style>
+                        table{
+                    border-collapse: collapse;
+                    border: 1px  #808080 none;
+                    text-align: center;
+                }
+
+                table>thead>tr>th {
+                    background-color: gray;
+                    border-top: 2px solid;
+                    border-bottom: 2px solid;
+                }
+
+                table>tbody>tr>td {
+                    border-bottom: 2px dotted gray;
+                    
+                    
+                }
+
+                .table-dote {
+                    border-bottom: 2px solid gray;
+                   
+                    
+                }
+
+            
+
+                table>tbody>tr:hover{
+                    background-color: yellow;
+                }
+
+                .text{
+                    text-decoration: underline;
+                    color: blue;
+                    
+                }
+
+
+
+                .btn {
+                display: inline-block;
+                background-color: gray;
+                width: 70px;
+                padding: 5px 5px 5px 5px;
+                text-align: center;
+                border-radius: 10px;
+                cursor: pointer;
+                position: relative;
+                 left: 730px;
+                top: 10px;
+                }
+
+                .btn:hover{
+                    background-color: yellow;
+                    border: 2px solid red;
+                }
+
+                
+
+    </style>
+
+    <body>
+
+        <h1>my site</h1>
+
+
+        <h2>게시판</h2>
+
+        <h3>일반게시판</h3>
+
+        <h4>리스트</h4>
+        
+        <table>
+            <colgroup>
+                <col style="width: 50px">
+                <col style="width: 450px">
+                <col style="width: 100px">
+                <col style="width: 100px">
+                <col style="width: 100px">
+                <col style="width: 100px">
+                </colgroup>
+
+            <thead>
+                <tr>
+                    <th>번호</th>
+                    <th>제목</th>
+                    <th>글쓴이</th>
+                    <th>조회수</th>
+                    <th>작성일</th>
+                    <th>관리</th>
+
+                    
+                </tr>
+
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td class="non">123</td>
+                    <td class="text">게시판 글입니다.</td>
+                    <td>정우성</td>
+                    <td>1232</td>
+                    <td>2021-05-11</td>
+                    <td>삭제</td>
+                </tr>
+
+                <tr>
+                    <td>123</td>
+                    <td class="text">게시판 글입니다.</td>
+                    <td>정우성</td>
+                    <td>1232</td>
+                    <td>2021-05-11</td>
+                    <td>삭제</td>
+                </tr>
+
+                <tr>
+                    <td>123</td>
+                    <td class="text">게시판 글입니다.</td>
+                    <td>정우성</td>
+                    <td>1232</td>
+                    <td>2021-05-11</td>
+                    <td>삭제</td>
+                </tr>
+
+                <tr>
+                    <td>123</td>
+                    <td class="text">게시판 글입니다.</td>
+                    <td>정우성</td>
+                    <td>1232</td>
+                    <td>2021-05-11</td>
+                    <td>삭제</td>
+                </tr>
+
+                <tr>
+                    <td class="table-dote">123</td>
+                    <td class="table-dote text">게시판 글입니다.</td>
+                    <td class="table-dote">정우성</td>
+                    <td class="table-dote">1232</td>
+                    <td class="table-dote">2021-05-11</td>
+                    <td class="table-dote">삭제</td>
+                </tr>
+
+
+
+            </tbody>
+
+        </table>
+
+                <div class="btn">글쓰기</div>
+                <div class="btn">수정</div>
+
+    </body>
+
+</html>

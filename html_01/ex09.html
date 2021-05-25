@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>html5</title>
+        <meta charset="UTF-8">
+
+    </head>
+
+    <body>
+        <form action="join.jsp" method="get">
+
+            <label for="txt-uid">아이디</label><!--label 태그를 사용해야함-->
+            <input id="txt-uid"type="text" name="uid" value="" placeholder="아이디"><br> <!--name 변수 선언-->
+
+            <label for="txt.upw">패스워드</label>
+            <input id="txt-upw"type="password" name="upw"><br>
+            
+            <label for="txt-uname">이름</label>
+            <input id="txt-uname"type="text" name="usename" value="" placeholder="이름"><br>
+
+            <label for="file-proimg">프로필사진</label>
+            <input  id="file-proimg"type="file"name="file" value=""><br>
+
+            <input type="date"><br>
+            <label for="e-mail">이메일</label>
+            <input id="e-mail" type="email"name="ad" value="ad1" ><br>
+            <input type="number"><br>
+            <br>
+            <!--라디오 name값을 같게 해야 하나씩 체크가 됨 -->
+            과일
+            <label for="rdo-apple">사과</label>
+            <input id="rdo-apple"type="radio" name="fruit" value="apple">
+
+            <label for="rdo-gr">포도</label>
+            <input id="rdo-gr" type="radio" name="fruit" value="grape"> <!--checked기본설정-->
+
+            <label for="rdo-or">오렌지</label>
+            <input id="rdo-or" type="radio" name="fruit" value="orange">
+            <br>
+            <!--name 그룹 value 실제값-->
+            <label for="rod-m1">1월</label>
+            <input id="rod-m1" type="radio" name="month" value="1">
+
+            <label for="rod-m2">2월</label>
+            <input id="rod-m2" type="radio"name="month" value="2">
+
+            <label for="rod-m3">3월</label>
+            <input id="rod-m3" type="radio"name="month" value="3">
+
+            <br><br>
+
+            <!--체크박스-->
+
+            <label for="chk-book">독서</label>
+            <input id="chk-book" type="checkbox" name="hobby" value="book">
+
+            <label for="chk-mu">음악</label>
+            <input id="chk-mu" type="checkbox" name="hobby" value="music">
+
+            <label for="chk-tr">여행</label>
+            <input id="chk-tr" type="checkbox"name="hobby" value="trip">
+            <br><br>
+
+
+            키우는 반려동물
+            <br>
+            <label for="chk-dog">개</label>
+            <input id="chk-dog" type="checkbox" name="animal" value="dog">
+
+            <label for="chk-cat">고양이</label>
+            <input id="chk-cat" type="checkbox" name="animal" value="cat" checked>
+
+            <label for="chk-bird">새</label>
+            <input id="chk-bird" type="checkbox" name="animal" value="bird">
+
+            <br>
+            <br>
+            <label for="sel-tel">이동통신사</label>
+            <select id="sel-tel" name="telecom">
+                <option value="tt" selected="selected">선택하시오</option>
+                <option value="sk">SKT</option>
+                <option value="kt">KT</option>
+                <option value="LG">LGU+</option>
+                <option value="et">기타</option>
+            </select>
+
+            <br>
+            <br>
+
+
+            <label for="are-content">본문</label>
+            <textarea id="are-content" name="content">ㅋㅋㅋㅋ</textarea><!--벨류가없다-->
+
+
+
+
+
+
+            <br><br>
+
+            <input type="hidden" name="code" value="01031576119">
+            <button type="submit">전송</button>
+           <!-- <input type="submit" value="전송">비추천-->
+
+            <button type="reset">초기화</button>
+
+
+        </form>
+        
+    </body>
+
+
+
+</html>

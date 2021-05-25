@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>html5</title>
+        <meta charset="UTF-8">
+        
+    </head>
+
+    <body>
+        <form action="join.jsp" method="GET">
+            <label for="txt-id">아이디</label><!--그냥 아이디라 쓸수있지만 친절히 눌렀을때 표기를 위해-->
+            <input id="txt-id" type="text" name="uid" value="" placeholder="아이디를 입력하세요">
+            <br>
+
+            <label for="pw-pw">패스워드</label>
+            <input id="pw-pw" type="password" name="upw" value="" placeholder="패스워드를 입력하세요">
+            <br>
+
+            <label for="txt-name">이름</label>
+            <input id="txt-name" type="text" name="uname" value="" placeholder="이름을 입력하세요">
+            <br>
+
+            <label for="file-profil">프로필사진</label>
+            <input id="file-profil" type="file" name="uprofil" value="">
+            <br>
+
+            <label for="u-ad">주소</label>
+            <input id="u-ad" type="text" name="uad" value=""placeholder="우편번호를 입력하세요">
+            <button>우편주소찾기</button>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="u-ad" type="text" name="uad" value=""
+            placeholder="주소를 입력하세요"style="width:400px;">
+            <br>
+
+            <label for="tel">이동통신사</label>
+                <select id="tel" name="telecom">
+                    <option value="tt" selected="selected">선택해주세요</option>
+                    <option value="SKT">SKT</option>
+                    <option value="KT">KT</option>
+                    <option value="LG">LGU+</option>
+
+                </select>
+                <br>
+                나이
+            <label for="u-age10">10대</label>
+            <input id="u-age10" type="radio" name="age" value="10"checked="checked">
+            <label for="u-age20">20대</label>
+            <input id="u-age20" type="radio" name="age" value="20">
+            <label for="u-age30">30대</label>
+            <input id="u-age30" type="radio" name="age" value="30">
+            <label for="u-age40">40대</label>
+            <input id="u-age40" type="radio" name="age" value="40">
+            <label for="u-agett">기타</label>
+            <input id="u-agett" type="radio" name="age" value="tt">
+            <br>
+                취미
+            <label for="chk-book">독서</label>
+            <input id="chk-book" type="checkbox" name="hobby" value="book" checked="checked">
+
+            <label for="chk-muc">음악</label>
+            <input id="chk-muc" type="checkbox" name="hobby" value="music">
+
+            <label for="chk-tric">여행</label>
+            <input id="chk-tric" type="checkbox" name="hobby" value="tric">
+
+            <label for="chk-mov">영화</label>
+            <input id="chk-mov" type="checkbox" name="hobby" value="movie">
+
+            <label for="chk-codi">코딩</label>
+            <input id="chk-codi" type="checkbox" name="hobby" value="coding">
+
+            <label for="chk-tt">기타</label>
+            <input id="chk-tt" type="checkbox" name="hobby" value="tt">
+
+                <br>
+
+            <label for="texta">자기소개</label>
+            <textarea id="texta" name="text-area" 
+            placeholder="5줄 이상 작성해주세요"style="width:500px;height:100px;font-size:10px;">
+        </textarea>
+
+                
+                <br>
+                
+
+                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="submit">등록</button>
+                <button type="reset">초기화</button>
+        </form>
+
+
+    </body>
+
+</html>

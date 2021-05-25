@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+
+
+
+<head>
+    <title>html5</title>
+    <meta charset="UTF-8">
+
+    <body>
+        <form action="join.jsp" method="GET">
+            <!--아이디-->
+            <label for="-id">아이디</label>
+            <input id="-id" type="text" name="id" value="" placeholder="아이디">
+            <button type="submit">확인</button>
+
+            <br>
+
+            <!--패스워드-->
+            <label for="-pw">패스워드</label>
+            <input id="-pw" type="password" name="pw" value="">
+
+            <br>
+
+            <!--이름-->
+            <label for="-un">이름</label>
+            <input id="-un" type="text" name="un" value="" placeholder="홍길동">
+
+            <br>
+
+            <!--프로필 사진/ 파일-->
+            프로필사진
+            <input type="file" name="file" value="">
+            <br>
+
+            <!--주소-->
+            <label for="-ad">주소</label>
+            <input id="-ad" type="text" name="ad" value="" placeholder="우편번호">
+            <br>
+
+            <!--이동통신사 select는 type X id/ name o -->
+            <label for="-tel">이동통신사</label>
+            <select id="-tel" name="tel">
+                <option value="skt">skt</option>
+                <option value="kt">kt</option>
+                <option value="lg">lg</option>
+
+            </select>
+            <br>
+            <!--나이-->
+            나이
+            <label for="-rdo">10대</label>
+            <input id="-rdo" type="radio" name="age" value="10">
+
+            <label for="-2rdo">20대</label>
+            <input id="-2rdo" type="radio" name="age" value="20">
+
+            <label for="-3rdo">30대</label>
+            <input id="-3rdo" type="radio" name="age" value="30">
+
+            <br>
+
+            <!--취미-->
+            취미
+            <label for="-chk">독서</label>
+            <input id="-chk" type="checkbox" name="hobby" value="book">
+
+            <label for="-1chk">영화감상</label>
+            <input id="-1chk" type="checkbox" name="hobby" value="movie">
+
+            <label for="-2chk">운동</label>
+            <input id="-2chk" type="checkbox" name="hobby" value="heath">
+
+            
+
+            <label for="txt-i">자기소개</label>
+            <textarea id="txt-i" name="txt" placeholder="5글자 이상쓰시오"></textarea>
+
+
+
+            <button type="submit">제출하기</button>
+            <button type="reset">초기화</button>
+
+            
+        </form>
+
+    </body>
+</head>
